@@ -81,8 +81,7 @@ Examples:
     $ cat infile > newfile1 2> newfile2
     $ someprogram < infile > newfile1 2> newfile2
 
-    # Put process in the background (i.e., "get the prompt back so we can
-    # logout")
+    # Put process in the background (i.e., "get the prompt back so we can logout")
     $ someprogram &
 
     # And all at once (very useful). Here, `someprogram` reads input from a file.
