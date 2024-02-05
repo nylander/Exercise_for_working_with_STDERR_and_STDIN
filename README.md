@@ -1,6 +1,6 @@
 # Exercise for learning STDERR and STDIN, and working on a remote server
 
-- Last modified: mån feb 05, 2024  04:51
+- Last modified: mån feb 05, 2024  05:01
 - Sign: Johan.Nylander
 - Please see the [Setup](#setup) in the end for installation and requirements.
 
@@ -65,19 +65,16 @@ the use of `&` to put processes in the background.
 
 Examples:
 
-    # Redirect stdout to newfile. newfile will be created if it's not there,
-    # otherwise owerwritten.
+    # Redirect stdout to newfile. newfile will be created if it's not there, otherwise owerwritten.
     $ cat infile > newfile
 
-    # Redirect stdout and append to newfile. newfile will be created if it's
-    # not there.
+    # Redirect stdout and append to newfile. newfile will be created if it's not there.
     $ cat infile >> newfile
 
     # Redirect stdin
     $ someprogram < infile
 
-    # Redirect stderr. newfile will be created if it's not there, otherwise
-    # owerwritten.
+    # Redirect stderr. newfile will be created if it's not there, otherwise owerwritten.
     $ cat infile 2> newfile
 
     # Redirection can be combined.
