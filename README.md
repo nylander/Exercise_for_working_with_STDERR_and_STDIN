@@ -1,7 +1,7 @@
 # Exercise for learning STDERR and STDIN, and working on a remote server
 
 - Last modified: mån feb 05, 2024  04:51
-- Sign: Johan.Nylander\@nrm.se
+- Sign: Johan.Nylander
 - Please see the [Setup](#setup) in the end for installation and requirements.
 
 ---
