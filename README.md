@@ -1,6 +1,6 @@
 # Exercise for learning STDERR and STDIN, and working on a remote server
 
-- Last modified: mån feb 05, 2024  05:01
+- Last modified: mån feb 05, 2024  05:06
 - Sign: Johan.Nylander
 - Please see the [Setup](#setup) in the end for installation and requirements.
 
@@ -56,12 +56,13 @@ Remember `mkdir` command?
 
 You want to make sure you save *the very important results* from `prog`.  You
 also want to make sure you can logout while your program `prog` is running.
-How can this be achieved?
+How can this be achieved? Just as with any (many) programs you use for the
+first time, this may require some trial-and-error (and/or reading the program
+documentation).
 
-**Hint:** Do you remember STDERR and STDOUT?
-
-Useful tools are the redirection operators (`<`, `>`, `2>`, `>>`, `2>>`) and
-the use of `&` to put processes in the background.
+**Hints:** Do you remember STDERR and STDOUT? Useful tools are the redirection
+operators (`<`, `>`, `2>`, `>>`, `2>>`) and the use of `&` to put processes in
+the background.
 
 Examples:
 
